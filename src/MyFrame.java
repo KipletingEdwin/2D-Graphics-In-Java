@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class MyFrame extends JFrame {
 
@@ -8,4 +9,10 @@ public class MyFrame extends JFrame {
         this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
+
+    public  void  paint(Graphics g){
+        Graphics2D g2d = (Graphics2D) g;
+
+    }
+
 }
