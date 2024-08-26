@@ -13,6 +13,8 @@ public class MyFrame extends JFrame {
     public  void  paint(Graphics g){
         Graphics2D g2d = (Graphics2D) g;
 
+        g2d.drawLine(0,0,500,500);
+
     }
 
 }
