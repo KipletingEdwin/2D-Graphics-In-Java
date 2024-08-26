@@ -11,6 +11,8 @@ public class MyPanel extends JPanel {
 
         Graphics2D g2d = (Graphics2D) g;
 
+
+        g2d.setPaint(Color.blue);
         g2d.setStroke(new BasicStroke(5));
         g2d.drawLine(0,0,500,500);
     }
