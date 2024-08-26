@@ -17,9 +17,12 @@ public class MyPanel extends JPanel {
         //g2d.drawLine(0,0,500,500);
 
 
-        g2d.drawRect(0,0,100,200);
+        //g2d.drawRect(0,0,100,200);
         //g2d.setPaint(Color.pink);
-        g2d.fillRect(0,0,100,200);
+        //g2d.fillRect(0,0,100,200);
+
+        g2d.setPaint(Color.orange);
+        g2d.drawOval(0,0,100,200);
 
     }
 }
