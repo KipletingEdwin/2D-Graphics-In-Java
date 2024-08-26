@@ -4,6 +4,7 @@ import java.awt.*;
 public class MyPanel extends JPanel {
 
     MyPanel(){
+        this.setPreferredSize(new Dimension(500,500));
 
     }
 
