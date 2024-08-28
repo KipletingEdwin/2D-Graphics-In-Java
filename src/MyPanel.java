@@ -24,12 +24,15 @@ public class MyPanel extends JPanel {
         //g2d.setPaint(Color.orange);
         //g2d.drawOval(0,0,100,200);
         //g2d.fillOval(0,0,100,200);
-        g2d.setPaint(Color.red);
+        //g2d.setPaint(Color.red);
         //g2d.drawArc(0,0,100,100,0,180);
-        g2d.fillArc(0,0,100,100,0,180);
-        g2d.fillArc(0,0,100,100,180,180);
+        //g2d.fillArc(0,0,100,100,0,180);
+        //g2d.fillArc(0,0,100,100,180,180);
 
-        g2d.setPaint(Color.red);
+        //g2d.setPaint(Color.red);
+        int[] xPoints = {150,250,350};
+        int[] yPoints = {300,150,300};
+        g2d.drawPolygon(xPoints, yPoints,3);
 
     }
 }
