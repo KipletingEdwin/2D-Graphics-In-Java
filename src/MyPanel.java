@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyPanel extends JPanel {
+    Image image;
 
     MyPanel(){
         this.setPreferredSize(new Dimension(500,500));
@@ -35,9 +36,11 @@ public class MyPanel extends JPanel {
        // g2d.setPaint(Color.yellow);
         //g2d.drawPolygon(xPoints, yPoints,3);
        // g2d.fillPolygon(xPoints, yPoints,3);
-        g2d.setPaint(Color.magenta);
-        g2d.setFont(new Font("Ink Free",Font.BOLD,50));
-        g2d.drawString("You are a winner",50,50);
+        //g2d.setPaint(Color.magenta);
+        //g2d.setFont(new Font("Ink Free",Font.BOLD,50));
+        //g2d.drawString("You are a winner",50,50);
+
+        g2d.drawImage(image,0,0,null);
 
     }
 }
