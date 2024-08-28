@@ -30,11 +30,13 @@ public class MyPanel extends JPanel {
         //g2d.fillArc(0,0,100,100,180,180);
 
         //g2d.setPaint(Color.red);
-        int[] xPoints = {150,250,350};
-        int[] yPoints = {300,150,300};
-        g2d.setPaint(Color.yellow);
-        g2d.drawPolygon(xPoints, yPoints,3);
-        g2d.fillPolygon(xPoints, yPoints,3);
+        //int[] xPoints = {150,250,350};
+        //int[] yPoints = {300,150,300};
+       // g2d.setPaint(Color.yellow);
+        //g2d.drawPolygon(xPoints, yPoints,3);
+       // g2d.fillPolygon(xPoints, yPoints,3);
+
+        g2d.drawString("You are a winner",50,50);
 
     }
 }
