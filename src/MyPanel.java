@@ -32,6 +32,7 @@ public class MyPanel extends JPanel {
         //g2d.setPaint(Color.red);
         int[] xPoints = {150,250,350};
         int[] yPoints = {300,150,300};
+        g2d.setPaint(Color.yellow);
         g2d.drawPolygon(xPoints, yPoints,3);
 
     }
