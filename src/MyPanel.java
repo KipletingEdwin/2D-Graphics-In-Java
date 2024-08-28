@@ -5,6 +5,8 @@ public class MyPanel extends JPanel {
     Image image;
 
     MyPanel(){
+
+        image = new  ImageIcon("sky.jpeg").getImage();
         this.setPreferredSize(new Dimension(500,500));
     }
 
