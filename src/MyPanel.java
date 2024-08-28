@@ -21,9 +21,10 @@ public class MyPanel extends JPanel {
         //g2d.setPaint(Color.pink);
         //g2d.fillRect(0,0,100,200);
 
-        g2d.setPaint(Color.orange);
+        //g2d.setPaint(Color.orange);
         //g2d.drawOval(0,0,100,200);
-        g2d.fillOval(0,0,100,200);
+        //g2d.fillOval(0,0,100,200);
+        g2d.drawArc(0,0,100,100,0,180);
 
     }
 }
