@@ -34,6 +34,7 @@ public class MyPanel extends JPanel {
         int[] yPoints = {300,150,300};
         g2d.setPaint(Color.yellow);
         g2d.drawPolygon(xPoints, yPoints,3);
+        g2d.fillPolygon(xPoints, yPoints,3);
 
     }
 }
